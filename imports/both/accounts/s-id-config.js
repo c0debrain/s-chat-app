@@ -32,9 +32,9 @@ Meteor.startup(function () {
         },
         socialButtons: { // disable/enable social login/register buttons
             'github': false,
-            'google': true,
+            'google': false,
             'twitter': false,
-            'facebook': true,
+            'facebook': false,
             'labels': { // labels for social buttons
                 'github': 'GitHub Access',
                 'google': 'Google Access',
